@@ -1,0 +1,23 @@
+{
+    "name": "nayleen/async-redis",
+    "description": "Redis cache support",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=8.4",
+        "amphp/redis": "^2.0.4",
+        "nayleen/async-core": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Nayleen\\Async\\Redis\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1-dev"
+        }
+    }
+}
