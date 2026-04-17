@@ -4,10 +4,10 @@ declare(strict_types = 1);
 
 namespace Nayleen\Async\Redis;
 
-use Nayleen\Async\AbstractComponent;
+use Nayleen\Async\Component;
 use Nayleen\Async\DI\Loader;
 
-final readonly class RedisComponent extends AbstractComponent
+final readonly class RedisComponent extends Component
 {
     public function register(Loader $loader): void
     {
